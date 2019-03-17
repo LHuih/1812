@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录-蜜芽</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/dneglu.css"/>
+	</head>
+	<body>
+		<div class="main margin clear">
+			<div class="m-l">	
+				<img src="../images/dengl.png"/>
+			</div>
+			<div class="m-r">
+				<p>快捷登录</p>
+				<form>
+					用户名： <input type="text" ide="user" placeholder="请输入用户名...."/><br />
+					密&nbsp;码： <input type="password" id="pass" placeholder="请输入您的密码...."/>
+				<input type="button" name="" class="btn" value="一键登录" />
+				</form>
+				<p class="te">
+					使用一下账号登录 : <a href="#">
+						<img src="../images/wx.png"/>
+					</a>
+					<a href="#">
+					<img src="../images/wb.png"/>
+					</a>
+				</p>
+			</div>
+		</div>
+		<div class="foot">
+Copyright ©2019 北京花旺在线商贸有限公司 Miyabaobei.com 保留一切权利。客服热线： 010-10108088。沪ICP备16004431号-2
+</div>
+	</body>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	
+<script type="text/javascript">
+    class Login{
+        constructor(){
+            this.url = "http://www.liyangyf.com/ctrl/login.php";
+            this.init()
+        }
+        init(){
+            var that = this;
+            $(".btn").click(function(){
+                that.load()
+            })
+        }
+        load(){
+            var that = this;
+            $.ajax({
+                url:this.url,
+                data:{
+                    user:$("#user").val(),
+                    pass:$("#pass").val()
+                },
+                success:function(res){
+                    switch(res){
+                        case "0":
+                           alert("用户名密码不符");
+                            break;
+                        case "1":
+                            alert("请重新登录");
+                            setTimeout(() => {
+                                location.href = "index.html";
+                            },2000);
+                            break;
+                        default:
+                            that.res = JSON.parse(res);
+                            alert("小蜜欢迎主人回来~");
+                            that.display()
+                    }
+                }
+            })
+        }
+        display(){
+            console.log(this.res)
+        }
+    }
+    new Login()
+    
+	</script>
+</html>

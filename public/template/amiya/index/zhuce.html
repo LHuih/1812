@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册-蜜芽</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/dneglu.css"/>
+	</head>
+	<body>
+		<div class="main margin clear">
+			<div class="m-l">	
+				<img src="../images/dengl.png"/>
+			</div>
+			<div class="m-r">
+				<p>注册</p>
+				<form>
+					&nbsp;用户名： <input type="text" id="user" value="" placeholder="请输入用户名...."/><br />
+					&nbsp;密&nbsp;码： <input type="password" id="pass" placeholder="请输入您的密码...."/>
+					重复输入： <input type="password" id="pass" placeholder="请输入您的密码...."/>
+					
+				<input type="button" name="" class="btn" value="一键注册" />
+				</form>
+				<p class="te">
+					使用以下账号登录 : <a href="#">
+						<img src="../images/wx.png"/>
+					</a>
+					<a href="#">
+					<img src="../images/wb.png"/>
+					</a>
+				</p>
+			</div>
+		</div>
+		<div class="foot">
+Copyright ©2019 北京花旺在线商贸有限公司 Miyabaobei.com 保留一切权利。客服热线： 010-10108088。沪ICP备16004431号-2
+</div>
+	</body>
+	<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+class Register{
+        constructor(){
+            this.url = "http://www.liyangyf.com/ctrl/register.php";
+
+            this.init();
+        }
+        init(){
+            var that = this;
+            $(".btn").click(function(){
+                that.load()
+            })
+        }
+        load(){
+            $.ajax({
+                url:this.url,
+                data:{
+                    tel:$("#user").val(),
+                    pass:$("#pass").val()
+                },
+                success:function(res){
+                	console.log(res)
+                    switch(res){
+                        case "0":
+                            alert("名字太受欢迎啦~");
+                            break;
+                        case "1":
+                           alert("注册成功~");
+                            setTimeout(() => {
+                                location.href = "index.html";
+                            },2000);
+                            break;
+                        case "2":
+                           alert("不允许为空");
+                            break;
+                    }
+                },
+            })
+        }
+    }
+
+    new Register()
+
+</script>
+	
+</html>

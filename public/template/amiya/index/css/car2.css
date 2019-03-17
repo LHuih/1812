@@ -1,0 +1,29 @@
+.margin{width:1000px;margin: 0 auto;}
+
+.me{}
+.me .me-t{border-bottom:2px solid #EEEEEE;font-weight:600;line-height:43px;margin-top:20px;}
+.me .me-t .my{font-size:24px;color:#575757;}
+.me table{border:#DDDDDD;margin-top:30px;width:100%;}
+.me table thead tr{width:100%;height:30px;}
+.me table thead th{background:#F8F8FF;}
+.me table tbody tr td{width: 120px;}
+.me table tbody tr td img{margin-left:58px;}
+.me table tbody tr td{padding-left:20px;}
+.me table tbody td .span{width:165px;display: inline-block;font:12px/18px "微软雅黑";color:#888888;margin-bottom:10px;text-align: center;}
+
+.me table tbody td .mm{color:#6A6A6A;font:16px/30px "微软雅黑";margin-left:60px;}
+
+.shuliang{height:30px;margin-top:20px;    margin-left: 38px;}
+
+.shuliang .num{float:left;border:1px solid #DDDDDD;text-align: center;}
+.shuliang .num span{width:24px;height:30px;float: left;background:#F8F8FF;font-size:26px;font-weight:600;color:#666666;}
+.shuliang .num .ee{float: left;border:1px solid #EEEEEE;width:28px;line-height:30px;border-top:none;border-bottom:none;font-size:16px;color:#666666;}
+
+td.td1{text-align:center;color:#666666;font-size: 16px;}
+td.td2{text-align:center;color:#666666;font-size: 16px;color:#FE5297;}
+
+
+
+
+
+

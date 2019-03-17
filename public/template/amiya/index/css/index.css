@@ -1,0 +1,65 @@
+#main{background:#f9f9f9;border-top:1px solid #F8F8FF;padding-bottom:20px;}
+#main .m-t{margin:18px 0 0 240px;height:105px;background: #FFF;}
+#main .m-t h3{float:left;padding:0 27px;font-size:14px;display:inline-block;color:#444;    margin-top:50px;}
+#main .m-t .pinp{}
+#main .pinp a{float: left;}
+#main .pinp a img{width:94px;margin:0 15px;margin-top:20px;}
+  
+#main .yifu{}
+#main .yifu .tuijian{}
+#main .yifu .tuijian h3{display: block;font:700 24px/26px "";margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;font-weight: bold;}
+#main .yifu .tuijian h3 span{display:inline-block;margin-left: 18px;vertical-align: -1px;font-weight: 400;font-size: 18px;color:#999;}
+#main .yifu .box{}
+#main .yifu .box>div{float:left;display:inline-block;background: #fff;border:solid 1px #E5E5E5;}
+#main .yifu .box div:hover b{color:red;} 
+#main .yifu .box div:hover img{opacity: .7;} 
+#main .yifu .box>div img.tp{width:218px;height:219px;}
+#main .yifu .box>div .a-b {background: #fff;padding: 15px 15px 65px;}
+#main .yifu .box>div .a-b .y-t{}
+#main .yifu .box>div .a-b .y-t b{font:700 12px/16px "";}
+#main .yifu .box>div .a-b .y-t p{font:12px/18px "";}
+#main .yifu .box>div .a-b .y-b{float:left;width:115px;}
+#main .yifu .box>div .a-b .y-b .new{margin-top:18px;display:bblock;float:left;color:red;font:14px/16px "";}
+#main .yifu .box>div .a-b .y-b .new em{font:600 18px/20px "";}
+#main .yifu .box>div .a-b .y-b .old{display:bblock;float: left;font:12px/14px "";margin-top:8px;}
+#main .yifu .box>div .a-b .y-b .old em{font:12px/14px "";text-decoration: line-through;}
+#main .yifu .box>div .a-b .qiang{float: right;width:70px}
+#main .yifu .box>div .a-b .qiang a.btn{display:block;width:66px;height:28px;color:#fff;border-radius:25px;text-align: center;font:14px/28px "";background:red;margin-top:18px;}
+#main .yifu .box>div .a-b .qiang p{margin-top:5px;float:right;font-size:12px;padding-bottom:5px;}
+#main .shoes {}
+#main .shoes .hhh{padding:10px 5px 0 0;}
+#main .shoes .hhh h3{display: block;font:700 24px/26px "";margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;font-weight: bold;}
+#main .shoes .hhh h3 span{display:inline-block;margin-left: 18px;vertical-align: -1px;font-weight: 400;font-size: 18px;color:#999;}
+
+#main .xiezi{background: #fff;border:solid 1px #E5E5E5;margin-top:20px;}
+#main .xiezi .x-t{padding:19px 19px 0 19px;}
+#main .xiezi .x-t .x-t-l{float:left;width:100%;}
+#main .xiezi .x-t .x-t-l img{width:76px;height:76px;border:2px solid #F2F2F2;border-radius:5px;}
+#main .xiezi .x-t .x-t-l a{font-size:20px;font-weight: 700;cursor: pointer;margin-top:30px;margin-left:7px;}
+#main .xiezi .x-t a.pp{float: right;}
+#main .xiezi .x-t .x-t-l .t-r{float:right;padding:9px 0 9px 14px;display: inline-block;width:180px;border:1px solid #FE5297;color:#fe5297;border-radius:25px;font:16px/20px "微软雅黑";text-align: center;}
+#main .xiezi .x-t .x-t-l a:hover{color:#fe5297;	}
+
+#main .xiezi .x-b a{padding:5px 0 10px 14px;display:inline-block;width:196px;position: relative;}
+#main .xiezi .x-b a img{width:196px;height:196px;}
+#main .xiezi .x-b a .dingw{padding:1px 10px;border:1px solid #fe5297;border-radius:25px;position: absolute;top:164px;left:86px;background:#fff;opacity: .8;color:#fe5297;text-align: center;line-height:26px;}
+#main .xiezi .x-b a p{width:196px;height: 48px; line-height: 24px;overflow: hidden;color: #222222;font:14px/18px "微软雅黑";}
+#main .xiezi .x-b a .price{}
+#main .xiezi .x-b a .price .new{display:block;float:left;color:#fe5297;font:14px/16px "";}
+#main .xiezi .x-b a .price .new em{font:600 20px/22px "";}
+#main .xiezi .x-b a .price .old{display:block;float: left;font:12px/14px "";}
+#main .xiezi .x-b a .price .old em{float: left;font:14px/14px "";text-decoration: line-through;margin-top:7px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
